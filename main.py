@@ -46,13 +46,6 @@ def dc_rules():
 
 
 # Response
-@app.route('/dc')
-def rickroll():
-    response = Response()
-    response.headers[
-        'Refresh'] = '5; url=https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-    return response
-
 
 @app.route('/rblxgroup')
 def rblxgroup():
